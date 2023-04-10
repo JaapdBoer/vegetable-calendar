@@ -32,7 +32,7 @@ body {
 
 .hero-image {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: rgb(8, 68, 8);
 }
