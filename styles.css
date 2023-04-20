@@ -11,7 +11,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: rgb(8, 68, 8);
   color: white;
   padding: 10px;
@@ -32,13 +32,15 @@ body {
 
 .hero-image {
   display: flex;
-  justify-content: center;
+  justify-content: column;
   align-items: center;
   background-color: rgb(8, 68, 8);
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .hero-text {
-  transform: translate(-50%, -50%);
   color: black;
 }
 
