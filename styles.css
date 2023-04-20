@@ -72,6 +72,11 @@ img {
   align-items: center;
 }
 
+.review {
+  background-color: grey;
+  padding: 30px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
