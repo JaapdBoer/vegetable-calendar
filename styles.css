@@ -78,7 +78,19 @@ img {
 
 .software {
   display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
   justify-content: space-between;
+  flex-direction: row;
+}
+
+.card {
+  border: 5px;
+  border-radius: 5px;
+  background-color: #555;
 }
 
 .review {
