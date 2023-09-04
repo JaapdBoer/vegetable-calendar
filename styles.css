@@ -12,7 +12,7 @@ body {
 .header,
 .footer {
   display: flex;
-  background-color: rgb(8, 68, 8);
+  background-color: rgb(38, 119, 38);
   color: white;
 }
 
@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(8, 68, 8);
+  background-color: rgb(38, 119, 38);
   padding: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
