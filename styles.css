@@ -9,13 +9,16 @@ body {
   margin: 0px;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
-  justify-content: space-between;
   background-color: rgb(8, 68, 8);
   color: white;
+}
+
+.header {
+  justify-content: space-between;
   padding: 10px;
-  font-size: 20px;
 }
 
 .logo {
@@ -24,6 +27,7 @@ body {
 
 .links {
   display: flex;
+  font-size: 18px;
 }
 
 .link {
@@ -81,6 +85,7 @@ img {
 
 .afscheid {
   display: flex;
+  border-radius: 5px;
   justify-content: space-between;
   background-color: grey;
   padding: 30px;
@@ -88,10 +93,7 @@ img {
 }
 
 .footer {
-  display: flex;
   justify-content: center;
-  background-color: rgb(8, 68, 8);
-  color: white;
-  padding: 0px;
-  font-size: 20px;
+  padding-left: 100%;
+  padding-right: 100%;
 }
