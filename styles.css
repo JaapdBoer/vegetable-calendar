@@ -76,6 +76,11 @@ img {
   align-items: center;
 }
 
+.software {
+  display: flex;
+  justify-content: space-between;
+}
+
 .review {
   display: flex;
   justify-content: space-between;
